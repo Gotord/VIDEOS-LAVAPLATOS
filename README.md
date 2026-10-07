@@ -37,6 +37,26 @@ npx remotion render
 npx remotion upgrade
 ```
 
+## Voz en off con ElevenLabs
+
+Las voces se generan con el modelo **Eleven v4** y la voz **Lina - Sunny, Kind and Friendly**
+(Estabilidad 50 %, Similitud 75 %, MP3 44.1 kHz 128 kbps).
+
+1. Copia `.env.example` como `.env` y pon tu `ELEVENLABS_API_KEY`. El archivo `.env` no se sube a GitHub.
+2. Genera la voz de un video:
+
+```console
+npm run voz -- anuncio1 "Tu lavaplatos queda brillante en minutos."
+npm run voz -- anuncio1 --archivo guiones/anuncio1.txt
+```
+
+Esto crea `public/voz/anuncio1.mp3` (el audio) y `public/voz/anuncio1.json`
+(duración y tiempos de cada palabra, para subtítulos). En Remotion:
+
+```tsx
+<Audio src={staticFile("voz/anuncio1.mp3")} />
+```
+
 ## Docs
 
 Get started with Remotion by reading the [fundamentals page](https://www.remotion.dev/docs/the-fundamentals).
