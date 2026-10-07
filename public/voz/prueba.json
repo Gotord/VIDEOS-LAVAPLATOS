@@ -1,0 +1,68 @@
+{
+  "texto": "¡Hola! Con este lavaplatos tus platos quedan brillantes en minutos, sin esfuerzo.",
+  "vozId": "VmejBeYhbrcTPwDniox7",
+  "modelo": "eleven_v4",
+  "duracionSegundos": 5.6,
+  "palabras": [
+    {
+      "texto": "¡Hola!",
+      "inicio": 0,
+      "fin": 0.64
+    },
+    {
+      "texto": "Con",
+      "inicio": 0.72,
+      "fin": 0.8
+    },
+    {
+      "texto": "este",
+      "inicio": 0.92,
+      "fin": 1.04
+    },
+    {
+      "texto": "lavaplatos",
+      "inicio": 1.12,
+      "fin": 1.76
+    },
+    {
+      "texto": "tus",
+      "inicio": 1.84,
+      "fin": 2
+    },
+    {
+      "texto": "platos",
+      "inicio": 2.08,
+      "fin": 2.4
+    },
+    {
+      "texto": "quedan",
+      "inicio": 2.44,
+      "fin": 2.72
+    },
+    {
+      "texto": "brillantes",
+      "inicio": 2.8,
+      "fin": 3.52
+    },
+    {
+      "texto": "en",
+      "inicio": 3.6,
+      "fin": 3.68
+    },
+    {
+      "texto": "minutos,",
+      "inicio": 3.76,
+      "fin": 4.48
+    },
+    {
+      "texto": "sin",
+      "inicio": 4.56,
+      "fin": 4.64
+    },
+    {
+      "texto": "esfuerzo.",
+      "inicio": 4.72,
+      "fin": 5.6
+    }
+  ]
+}
